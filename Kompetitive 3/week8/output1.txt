@@ -1,0 +1,282 @@
+....
+S#BT
+....
+....
+player: 1 0
+box: 1 2
+Maze #1
+neeSnwwsseEseN
+
+.#..
+S#BT
+....
+....
+player: 1 0
+box: 1 2
+Maze #2
+seeennwSesswwnEseN
+
+....
+S#BT
+....
+.#..
+player: 1 0
+box: 1 2
+Maze #3
+neeSnwwsseEseN
+
+...#
+S#BT
+....
+.#..
+player: 1 0
+box: 1 2
+Maze #4
+neeSnwwsseEseN
+
+T......#
+.##.##..
+.##.##..
+...S....
+.##.##..
+.##.##..
+......B.
+#.......
+player: 3 3
+box: 6 6
+Maze #5
+eeeesssWWWswNNNNNNsseeennnwwWWW
+
+T..........#
+.##.##.##...
+.##.##.##...
+............
+.##.##.##...
+.##.##.##...
+..........B.
+#..........S
+player: 7 11
+box: 6 10
+Maze #6
+nWswNNNNNNenWWWWWWWWW
+
+T.........#.
+.##.##.##...
+.##.##.##...
+............
+.##.##.##...
+.##.##.##...
+..........B.
+#..........S
+player: 7 11
+box: 6 10
+Maze #7
+wNNNenWWWWWWWWWWeessswwwnnNNN
+
+T####..#
+S......#
+.##.##..
+.##.##..
+......B.
+##..##..
+player: 1 0
+box: 4 6
+Maze #8
+eeeeeesessWWWeennnwwwwwwssseeseNNNsseeennnwwWWWeessswwwnnN
+
+..S..
+.#.#.
+..T..
+.#.#.
+..B..
+..#..
+player: 0 2
+box: 4 2
+Maze #9
+Impossible.
+
+.#...#.
+...S...
+..#.#..
+#..T..#
+..#.#..
+...B...
+...#...
+player: 1 3
+box: 5 3
+Maze #10
+wwsssseEEseNNNNenWWnwSS
+
+.......
+.##.##.
+...S...
+..#.#..
+#..T..#
+..#.#..
+...B...
+...#...
+player: 2 3
+box: 6 3
+Maze #11
+wwsssseEEseNNNNenWWeennwwwsSS
+
+........
+.#...#..
+.....#..
+T#####..
+.B......
+#S......
+player: 5 1
+box: 4 1
+Maze #12
+Impossible.
+
+.......
+.#.....
+....#..
+T####..
+.B.....
+#S.....
+player: 5 1
+box: 4 1
+Maze #13
+eneeennnwwwswwssEEEEseNNNenWWWnwSesWWennwwsS
+
+........
+.#...#..
+........
+T#####..
+.B......
+#S......
+player: 5 1
+box: 4 1
+Maze #14
+eneeeennwwwwwwssEEEEEseNNenWWWWWWennwwsS
+
+.#S..
+.#T#.
+...B.
+.#.##
+.....
+player: 0 2
+box: 2 3
+Maze #15
+eessWennwwsSwwsseeNN
+eessWWsswwnnEwsseenN
+
+.....
+..BS.
+.#.#.
+T....
+player: 1 3
+box: 1 2
+Maze #16
+WWnwSS
+
+.....
+.SB..
+.#.#.
+....T
+player: 1 1
+box: 1 2
+Maze #17
+EEneSS
+
+T....
+.#.#.
+..BS.
+.....
+player: 2 3
+box: 2 2
+Maze #18
+WWswNN
+
+....T
+.#.#.
+.SB..
+.....
+player: 2 1
+box: 2 2
+Maze #19
+EEseNN
+
+...T
+..#.
+.B..
+.S#.
+....
+player: 3 1
+box: 2 1
+Maze #20
+NNwnEE
+
+....
+.S#.
+.B..
+..#.
+...T
+player: 1 1
+box: 2 1
+Maze #21
+SSwsEE
+
+....
+.#S.
+..B.
+.#..
+T...
+player: 1 2
+box: 2 2
+Maze #22
+SSesWW
+
+T...
+.#..
+..B.
+.#S.
+....
+player: 3 2
+box: 2 2
+Maze #23
+NNenWW
+
+##################
+##################
+##################
+##################
+##################
+##################
+T#################
+.##########...####
+.......####.#.####
+..##.#.####.#.####
+.###...####.#.####
+.###.######.#.####
+....B.......#.####
+..##.########.####
+####S.........####
+player: 14 4
+box: 12 4
+Maze #24
+nNNNNseennwWWWWswNN
+
+........##########
+.######.##########
+......#.##########
+#####.#...........
+#####.###########.
+#####.###.........
+T####..##.########
+.#####.##.#...####
+.......##.#.#.####
+..##.####.#.#.####
+.###......#.#.####
+.###.######.#.####
+....B.......#.####
+..##.########.####
+####S.........####
+player: 14 4
+box: 12 4
+Maze #25
+eeeeeeeeennnnnnnwwssssswwwwwwWWWWswNNNNNN
+

@@ -1,0 +1,24 @@
+week 2:
+- LowestPriceInTown.cpp // AC - lupa array char harus dilebihin
+
+week 3: 
+- Vacation.cpp // AC - ini variant dari LCS
+
+week 4:
+- The Book-Shelver Problem // NYERAH - wrong answer terus
+
+week 5:
+- UnidirectionalTSP.cpp // Belum selesai
+- StringComputer.cpp // WA
+- 
+
+week 6:
+- Skycraper // NYERAH - yang lain dulu hehe
+
+week 7:
+- HowManyDependencies.cpp // AC - pake brute force :D
+- 
+- 
+
+BONUS:
+- 

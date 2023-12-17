@@ -3,10 +3,10 @@
 #include <queue>
 using namespace std;
 
-int size = 3;
+const int sizeN = 3;
 
 #define flip(num, i) (num ^ (1 << i))
-#define index(i, j) (j + i * size)
+#define index(i, j) (j + i * sizeN)
 
 int hasil[600];
 // bool visited[600];
@@ -34,13 +34,13 @@ int flipping(int num, int i, int j)
     num = flip(num, index(i, j));
     // decToBinary(num);
 
-    if (i + 1 < size)
+    if (i + 1 < sizeN)
     {
         num = flip(num, index((i + 1), j));
         // printf("[%d, %d]: %d\n", i + 1, j, index((i + 1), j));
         // decToBinary(num);
     }
-    if (j + 1 < size)
+    if (j + 1 < sizeN)
     {
         num = flip(num, index(i, (j + 1)));
         // printf("[%d, %d]: %d\n", i, j + 1, index(i, (j + 1)));
@@ -59,7 +59,7 @@ int flipping(int num, int i, int j)
         // decToBinary(num);
     }
 
-    decToBinary(num);
+    // decToBinary(num);
 
     return num;
 }
@@ -73,8 +73,9 @@ void calc()
     for (int i = 0; i < 3; i++)
         for (int j = 0; j < 3; j++)
         {
-            q.push(flipping(hasil[0], i, j));
-            hasil[index(i, j)] = 1;
+            int idx = flipping(hasil[0], i, j);
+            q.push(idx);
+            hasil[idx] = 1;
         }
 
     while (!q.empty())
@@ -90,13 +91,32 @@ void calc()
                     continue;
                 q.push(res);
                 hasil[res] = hasil[front] + 1;
-                printf("%d\n", hasil[res]);
+                // printf("#%d -> %d + 1 = %d\n", front, hasil[front], hasil[res]);
+                // printf("%d\n", hasil[res]);
             }
     }
 }
 
+char map[sizeN + 1][sizeN + 1];
+
 int mapToInt()
 {
+    int res = 0;
+    int dec = 1;
+
+    for (int i = sizeN - 1; i >= 0; i--)
+    {
+        for (int j = sizeN - 1; j >= 0; j--)
+        {
+            if (map[i][j] == '*')
+            {
+                res += dec;
+            }
+            dec *= 2;
+        }
+    }
+
+    return res;
 }
 
 int main()
@@ -106,6 +126,21 @@ int main()
 
     // printf("%d\n", flipping(186, 2, 2));
     calc();
+    int n;
+    scanf("%d\n", &n);
 
-    printf("%d\n", hasil[481]);
+    while (n--)
+    {
+        for (int i = 0; i < sizeN; i++)
+            scanf("%s\n", map[i]);
+
+        // for (int i = 0; i < sizeN; i++)
+        //     printf("%s\n", map[i]);
+
+        // printf("%d: %d\n", mapToInt(), hasil[mapToInt()]);
+        printf("%d\n", hasil[mapToInt()]);
+    }
+
+    // printf("%d\n", hasil[308]);
+    // printf("%d\n", hasil[481]);
 }

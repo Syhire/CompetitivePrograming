@@ -1,0 +1,5 @@
+1. Pseudo_Random_Numbers.cpp (Online Judge) // Accepted
+2. ga ada yang terlalu penting yang bisa di ubah karena intinya sama paling terakhir jadi indexHead = 0; // tapi udh di buat kaya jadi ga ada index"an
+3. Eventually_pretiodic_sequence.cpp (Online Judge)
+   Flavius_Josephus_Reloaded.cpp (Online Judge)
+   // Dua-duanya Accepted

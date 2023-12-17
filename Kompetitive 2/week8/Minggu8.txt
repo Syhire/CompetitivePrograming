@@ -1,0 +1,6 @@
+1. FreedomFighter.cpp // AC - UTS
+2. Sudah??? Tapi masih ga ngerti cara pake bitmask
+3.
+    1. SplittingNumber.cpp // AC - 2.2h bitset
+    2. TheMostPotentCorner.cpp // AC - 2.2h bitmask? (tulisan di hint mah)
+    3. Potentiometers.cpp // AC - 2.4c fenwick

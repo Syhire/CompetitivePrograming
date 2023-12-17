@@ -1,0 +1,33 @@
+tlx - pemograman dasar - 3
+
+Add Two Numbers //https://open.kattis.com/problems/addtwonumbers
+99 Problems //https://open.kattis.com/problems/99problems
+Aaah! //https://open.kattis.com/problems/aaah
+
+Quality-Adjusted Life-Year // https://open.kattis.com/problems/qaly
+Quadrant Selection // https://open.kattis.com/problems/quadrant
+Jumbo Javelin // https://open.kattis.com/problems/jumbojavelin
+Jack-O'-Lantern Juxtaposition // https://open.kattis.com/problems/jackolanternjuxtaposition
+FYI // https://open.kattis.com/problems/fyi
+Echo Echo Echo // https://open.kattis.com/problems/echoechoecho
+
+Two Sum // https://open.kattis.com/problems/twosum
+Solving for Carrots // https://open.kattis.com/problems/carrots
+R2 // https://open.kattis.com/problems/r2
+Knight Packing // https://open.kattis.com/problems/knightpacking
+Finding An A // https://open.kattis.com/problems/findingana
+Faktor // https://open.kattis.com/problems/faktor
+
+DigitSwap // https://open.kattis.com/problems/digitswap
+Canadians, eh? // https://open.kattis.com/problems/canadianseh
+Autori // https://open.kattis.com/problems/autori
+OddEcho // https://open.kattis.com/problems/oddecho
+Tarifa // https://open.kattis.com/problems/tarifa
+Take Two Stones // https://open.kattis.com/problems/twostones
+
+Pot // https://open.kattis.com/problems/pot
+Oddities // https://open.kattis.com/problems/oddities
+Bela // https://open.kattis.com/problems/bela
+Stuck In A Time Loop // https://open.kattis.com/problems/timeloop
+Sort Two Number // https://open.kattis.com/problems/sorttwonumbers
+Sibice // https://open.kattis.com/problems/sibice

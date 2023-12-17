@@ -1,0 +1,6 @@
+1. CallingCircles.cpp // AC -> pending dari week 2
+2. Bicoloring.cpp // AC -> Bipartite
+3. GettingGold.cpp // AC -> FloodFill
+4. OrderingTask.cpp // AC -> Topological Sort
+
+2 - 4 buat penganti week 7 (?)

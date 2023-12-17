@@ -1,0 +1,4 @@
+1. bridgePoints.cpp -> implementasi algoritma mencari bridge dan articulation point
+2. Network.cpp -> soal tetang articulation point
+3. ... minggu depan saya salah liat soal yang harus dikerjain
+4. torn2piece.cpp -> dari kattis (wrong tapi ga tau salah di mana)

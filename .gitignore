@@ -1,0 +1,7 @@
+.vscode
+*.zip
+*.exe
+*.out
+*.bin
+input.txt
+output.txt

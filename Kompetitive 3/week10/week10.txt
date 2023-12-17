@@ -1,0 +1,5 @@
+week 9:
+// lupa ngasih codenya ci wkwk
+
+week 10:
+TheGreatEscape.cpp // AC

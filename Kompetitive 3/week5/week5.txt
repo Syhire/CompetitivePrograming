@@ -1,0 +1,5 @@
+week 4:
+1. TheBook-shelverProblem.cpp - WA
+2. CuttingSticks.cpp - AC
+
+week 5: // moga moga hari ini selesai (senin)

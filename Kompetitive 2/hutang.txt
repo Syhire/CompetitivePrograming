@@ -1,0 +1,24 @@
+Ga keburu ci haha, susah
+
+ini saya yang not turn in?
+
+week12:
+UVA Watering Grass // AC
+UVA Shoemaker's Problem // AC
+
+week13:
+Kattis Paintings // AC
+UVA Prime Rings Problem // AC
+
+UVA The Hamming Distance Problem // AC
+UVA 23 out of 5 // AC
+UVA Y2K Accounting Bug // AC
+
+week14:
+A30 - Kelipata Terpanjang // TLE no terakhir
+C16 - Yuckdonald's // RTE 2 nomor terakhir
+D14 - Maximum Sum // AC
+D15 - Maximum Sum Average // Test 1 Wrong?
+
+C27 - Moving on a Graph // Bukannya Kaya BFS lebih cepet?
+A17 - Coin Change // different from the indian man(?)

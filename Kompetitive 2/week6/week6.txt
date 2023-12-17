@@ -1,0 +1,10 @@
+-- WEEK 6 --
+
+2.2b 1D Array Harder -> LetsPlayMagic.cpp // AC
+2.2c 2D Array Easier -> nineknights.cpp // AC
+2.2d 2D Array Harder -> havingFunWithMatrices.cpp // AC
+
+-- WEEK 5 (contd) --
+
+4.2f Bridge -> WeakLinks.cpp // AC
+kattis torn2pieces // White Flag

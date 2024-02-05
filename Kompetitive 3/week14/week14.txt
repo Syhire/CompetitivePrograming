@@ -1,0 +1,4 @@
+week14
+- e-Coins.cpp // AC 8.2b State-Space, BFS Easy, pake DP biasa
+
+maaf ci sedang sibuk banyak tugas wkwk

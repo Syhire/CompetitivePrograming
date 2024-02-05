@@ -3,5 +3,6 @@
 *.exe
 *.out
 *.bin
+*.png
 input.txt
 output.txt

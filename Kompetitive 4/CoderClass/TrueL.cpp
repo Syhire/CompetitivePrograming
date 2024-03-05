@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <math.h>
-#include <vector>
+#include <string.h>
 using namespace std;
 
 int t, n;
 char input[834];
 
-vector<int> edge[5010];
+// vector<int> edge[5010];
+int edge[5010];
 
 int findParent(char a)
 {
@@ -22,21 +23,21 @@ int findParent(char a)
     return 0;
 }
 
-int findBinary(int idx)
+void findBinary(int idx)
 {
     int size = ceil(n / 6.0);
     for (int i = 0; i < size; i++)
     {
         int num = input[i] - findParent(input[i]);
-        printf("%c (%d)\n", input[i], num);
+        // printf("%c (%d)\n", input[i], num);
 
         for (int j = 5; j >= 0; j--)
         {
             int bin = num >> j;
             if (bin & 1)
             {
-                printf("%d -> %d\n", idx, i * 6 + 5 - j);
-                edge[idx].push_back(i * 6 + 5 - j);
+                // printf("%d -> %d\n", idx, i * 6 + 5 - j);
+                edge[i * 6 + 5 - j]++;
             }
         }
         // printf("\n");
@@ -45,6 +46,18 @@ int findBinary(int idx)
 
 bool findLoop()
 {
+    // set<int> a;
+    bool a[5010];
+    memset(a, false, sizeof(bool) * 5010);
+
+    for (int i = 0; i < n; i++)
+    {
+        if (a[edge[i]] == true)
+            return true;
+        // printf("%d\n", edge[i]);
+        a[edge[i]] = true;
+    }
+    return false;
 }
 
 int main()
@@ -56,8 +69,7 @@ int main()
         scanf("%d\n", &n);
 
         // reset
-        for (int i = 0; i < n; i++)
-            edge[i].clear();
+        memset(edge, 0, sizeof(int) * 5010);
 
         for (int i = 0; i < n; i++)
         {
